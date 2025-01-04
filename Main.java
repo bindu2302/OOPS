@@ -1,19 +1,11 @@
-package Vehicle;
+package Program;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Vehicle vcl = new PetrolCar();
-		vcl.start();
-		vcl.fuel();
-		vcl.stop();
-		
-		vcl= new DieselCar();
-		vcl.start();
-		vcl.fuel();
-		vcl.stop();
+		Program3 p = new Program3();
+		p.display1();
+		p.display2();
 	}
-	
-	
 
 }

@@ -1,11 +1,11 @@
-package Program;
+package package1;
 
-public class Program3  implements Program2{
-	public void display1() {
-		System.out.println("inside program3 display1");
-	}
-	
-	public void display2() {
-		System.out.println("inside program3 display2");
+public class Program3 {
+	void disp3() {
+		Program1 prg1 = new Program1();
+		System.out.println(prg1.a);
+		System.out.println(prg1.b);
+		System.out.println(prg1.c);
+//		System.out.println(prg1.d);  //private
 	}
 }
